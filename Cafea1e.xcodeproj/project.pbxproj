@@ -8,22 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		714D071E1D01BEF000ACE84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D071D1D01BEF000ACE84C /* AppDelegate.swift */; };
-		714D07201D01BEF000ACE84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D071F1D01BEF000ACE84C /* ViewController.swift */; };
+		714D07201D01BEF000ACE84C /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D071F1D01BEF000ACE84C /* MapController.swift */; };
 		714D07231D01BEF000ACE84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714D07211D01BEF000ACE84C /* Main.storyboard */; };
 		714D07261D01BEF000ACE84C /* Cafea1e.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 714D07241D01BEF000ACE84C /* Cafea1e.xcdatamodeld */; };
 		714D07281D01BEF000ACE84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714D07271D01BEF000ACE84C /* Assets.xcassets */; };
 		714D072B1D01BEF000ACE84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714D07291D01BEF000ACE84C /* LaunchScreen.storyboard */; };
+		714D07381D01C1E500ACE84C /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D07371D01C1E500ACE84C /* HttpClient.swift */; };
+		714D073B1D01C25900ACE84C /* MyBridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 714D073A1D01C25900ACE84C /* MyBridging.m */; };
+		714D073D1D01CC8A00ACE84C /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D073C1D01CC8A00ACE84C /* MapModel.swift */; };
+		714D073F1D01DA7100ACE84C /* OpenDataGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D073E1D01DA7100ACE84C /* OpenDataGetter.swift */; };
+		D60949C2453C00355944CBC5 /* Pods_Cafea1e.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FA9430396C332D1C66B71F /* Pods_Cafea1e.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27FA9430396C332D1C66B71F /* Pods_Cafea1e.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafea1e.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		714D071A1D01BEF000ACE84C /* Cafea1e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafea1e.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		714D071D1D01BEF000ACE84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		714D071F1D01BEF000ACE84C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		714D071F1D01BEF000ACE84C /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		714D07221D01BEF000ACE84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		714D07251D01BEF000ACE84C /* Cafea1e.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cafea1e.xcdatamodel; sourceTree = "<group>"; };
 		714D07271D01BEF000ACE84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		714D072A1D01BEF000ACE84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		714D072C1D01BEF000ACE84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714D07371D01C1E500ACE84C /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		714D07391D01C25900ACE84C /* Cafea1e-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cafea1e-Bridging-Header.h"; sourceTree = "<group>"; };
+		714D073A1D01C25900ACE84C /* MyBridging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBridging.m; sourceTree = "<group>"; };
+		714D073C1D01CC8A00ACE84C /* MapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		714D073E1D01DA7100ACE84C /* OpenDataGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenDataGetter.swift; sourceTree = "<group>"; };
+		91320901E39A931E123836CD /* Pods-Cafea1e.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafea1e.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cafea1e/Pods-Cafea1e.release.xcconfig"; sourceTree = "<group>"; };
+		A4F9774F4A221131063B8148 /* Pods-Cafea1e.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafea1e.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cafea1e/Pods-Cafea1e.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60949C2453C00355944CBC5 /* Pods_Cafea1e.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +54,12 @@
 		714D07111D01BEF000ACE84C = {
 			isa = PBXGroup;
 			children = (
+				714D073A1D01C25900ACE84C /* MyBridging.m */,
 				714D071C1D01BEF000ACE84C /* Cafea1e */,
 				714D071B1D01BEF000ACE84C /* Products */,
+				97FF3D89FB8BD3D98E203E77 /* Pods */,
+				919A4FFC186A3DD56B7181A6 /* Frameworks */,
+				714D07391D01C25900ACE84C /* Cafea1e-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +75,74 @@
 			isa = PBXGroup;
 			children = (
 				714D071D1D01BEF000ACE84C /* AppDelegate.swift */,
-				714D071F1D01BEF000ACE84C /* ViewController.swift */,
-				714D07211D01BEF000ACE84C /* Main.storyboard */,
+				714D07351D01C18E00ACE84C /* Utils */,
+				714D07341D01C18500ACE84C /* Controllers */,
+				714D07331D01C18100ACE84C /* Views */,
+				714D07321D01C17B00ACE84C /* Models */,
 				714D07271D01BEF000ACE84C /* Assets.xcassets */,
-				714D07291D01BEF000ACE84C /* LaunchScreen.storyboard */,
 				714D072C1D01BEF000ACE84C /* Info.plist */,
 				714D07241D01BEF000ACE84C /* Cafea1e.xcdatamodeld */,
 			);
 			path = Cafea1e;
+			sourceTree = "<group>";
+		};
+		714D07321D01C17B00ACE84C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				714D073C1D01CC8A00ACE84C /* MapModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		714D07331D01C18100ACE84C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				714D07211D01BEF000ACE84C /* Main.storyboard */,
+				714D07291D01BEF000ACE84C /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		714D07341D01C18500ACE84C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				714D071F1D01BEF000ACE84C /* MapController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		714D07351D01C18E00ACE84C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				714D07361D01C19600ACE84C /* Network */,
+				714D073E1D01DA7100ACE84C /* OpenDataGetter.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		714D07361D01C19600ACE84C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				714D07371D01C1E500ACE84C /* HttpClient.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		919A4FFC186A3DD56B7181A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27FA9430396C332D1C66B71F /* Pods_Cafea1e.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97FF3D89FB8BD3D98E203E77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9774F4A221131063B8148 /* Pods-Cafea1e.debug.xcconfig */,
+				91320901E39A931E123836CD /* Pods-Cafea1e.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 714D072F1D01BEF000ACE84C /* Build configuration list for PBXNativeTarget "Cafea1e" */;
 			buildPhases = (
+				418F7BD3CA3B87A639CEF2AF /* 📦 Check Pods Manifest.lock */,
 				714D07161D01BEF000ACE84C /* Sources */,
 				714D07171D01BEF000ACE84C /* Frameworks */,
 				714D07181D01BEF000ACE84C /* Resources */,
+				8C9E59FFB42DC715C8F1F104 /* 📦 Embed Pods Frameworks */,
+				32E98EC268DA7675B72AA9B8 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +214,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32E98EC268DA7675B72AA9B8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cafea1e/Pods-Cafea1e-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		418F7BD3CA3B87A639CEF2AF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C9E59FFB42DC715C8F1F104 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cafea1e/Pods-Cafea1e-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		714D07161D01BEF000ACE84C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				714D07261D01BEF000ACE84C /* Cafea1e.xcdatamodeld in Sources */,
-				714D07201D01BEF000ACE84C /* ViewController.swift in Sources */,
+				714D073B1D01C25900ACE84C /* MyBridging.m in Sources */,
+				714D07201D01BEF000ACE84C /* MapController.swift in Sources */,
+				714D07381D01C1E500ACE84C /* HttpClient.swift in Sources */,
+				714D073D1D01CC8A00ACE84C /* MapModel.swift in Sources */,
 				714D071E1D01BEF000ACE84C /* AppDelegate.swift in Sources */,
+				714D073F1D01DA7100ACE84C /* OpenDataGetter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,23 +386,30 @@
 		};
 		714D07301D01BEF000ACE84C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F9774F4A221131063B8148 /* Pods-Cafea1e.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Cafea1e/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.teiki.Cafea1e;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cafea1e-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		714D07311D01BEF000ACE84C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91320901E39A931E123836CD /* Pods-Cafea1e.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Cafea1e/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.teiki.Cafea1e;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cafea1e-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -292,6 +432,7 @@
 				714D07311D01BEF000ACE84C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

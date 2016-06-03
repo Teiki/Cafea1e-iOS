@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MapController: UIViewController {
 
+    @IBOutlet weak var mapView: GMSMapView!
+    
+    private var mapModel = MapModel?()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        mapModel = MapModel(mapView: mapView)
     }
 
     override func didReceiveMemoryWarning() {
